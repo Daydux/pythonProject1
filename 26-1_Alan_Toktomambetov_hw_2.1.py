@@ -61,7 +61,7 @@ class RightTriangle(Figure):
         self.__side_b = value
 
 
-circle1 = Circle(radius=5)
+circle1 = Circle(radius=3)
 circle2 = Circle(radius=7)
 triangle1 = RightTriangle(side_a=4, side_b=7)
 triangle2 = RightTriangle(side_a=8, side_b=5)
