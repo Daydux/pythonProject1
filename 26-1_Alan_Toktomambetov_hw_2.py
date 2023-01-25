@@ -3,6 +3,9 @@ class Figure:
     def __init__(self):
         pass
 
+    def calculate_perimetr(self):
+        pass
+
     def calculate_area(self):
         pass
 
@@ -16,11 +19,15 @@ class Square(Figure):
         self.__side_length = side_length
 
     def calculate_area(self):
-        perimetr = 2 * self.__side_length
-        return perimetr
+        S = self.__side_length * self.__side_length
+        return S
+
+    def calculate_perimetr(self):
+        P = self.__side_length * 2
+        return P
 
     def info(self):
-        print(f"Square side length: {self.__side_length}, area: {self.calculate_area()}")
+        print(f"Square's side length: {self.__side_length}, perimetr: {self.calculate_perimetr()}, area: {self.calculate_area()}")
 
     @property
     def side_length(self):
@@ -38,11 +45,15 @@ class Rectangle(Figure):
         self.__width = width
 
     def calculate_area(self):
-        perimetr = self.__length * self.__width
-        return perimetr
+        s = self.__length * self.__width
+        return s
+
+    def calculate_perimetr(self):
+        p = (self.__length + self.__width) * 2
+        return p
 
     def info(self):
-        print(f"length: {self.__length}cm, width: {self.__width}cm, area: {self.calculate_area()}")
+        print(f"Rectangle's length: {self.__length}cm, width: {self.__width}cm, perimetr: {self.calculate_perimetr()}, area: {self.calculate_area()}")
 
     @property
     def length(self):
