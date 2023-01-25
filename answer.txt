@@ -1,0 +1,11 @@
+alan 7 * 83 = 581 (581 11 False
+Marsel 2 * 63 = 126 (126 4 False
+watson 10 * 71 = 1 (710) 1 False
+das 6 * 73 = 1 (438) 1 False
+ala 9 * 69 = 12 (621 2 False
+)huy 10 * 54 = 12 (540 2 False
+)jopa 2 * 95 = 21 (190 2 False
+)piska 5 * 37 = 123 (185 2 False
+)uilson 5 * 78 = 213 (390 2 False
+)jopkin 4 * 43 = 12345 (172 2 False
+)
